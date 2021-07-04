@@ -1,0 +1,179 @@
+body {
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: column;
+ margin:0;
+ padding:0;
+ font-family: "arial", "sans serif";
+ }
+ 
+
+a:link, a:visited, a:hover, a:focus, a:active {
+	color:inherit;
+	text-decoration: inherit;
+	transition: .1s ease-in-out;
+}
+ 
+.title_bar {
+	order:0;
+	background-color:black;
+	height:15%;
+	display: flex;
+	justify-content: space-between;
+	margin:0;
+}
+
+.nav {
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	padding-top:20%;
+	padding-bottom:20%;
+	margin:0;
+	text-align:center;
+}
+ 
+.nav-item {
+	width: 33%;
+	font-size:3vw;
+	color: #34363A;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.nav-title:link, .nav-title:visited, .nav-title:hover, .nav-title:focus, .nav-title:active {
+	text-decoration: inherit;
+    	color: inherit;
+    	outline: inherit;
+    	cursor: auto;
+    	transition: .2s ease-in-out;
+}
+.nav-title:hover {
+	color: #000000;
+	
+	font-size: 3.1vw;
+	transition: .2s ease-in-out;
+}
+
+.hr_thin {
+	width:15%;
+	opacity: 75%;
+	border: 1px solid #34363A;
+	
+}
+
+#menu {
+	background-color: #34363A;
+	width:100%;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	color:#ffffff;
+}
+
+.menu-heading {
+	width: 100%;
+	display: inline-block;
+	color:#ffffff;
+	font-size:32px;
+	text-align: center;
+	margin-bottom: 5%;
+	
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow,    orange, red); 
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align:center;
+}
+
+#catering {
+	background-color: #ffffff;
+	width:100%;
+	display: flex;
+        flex-direction: column;
+        justify-content:center;
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+.catering-heading {
+	width: 100%;
+	color:#34363A;
+	font-size:32px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.catering-text {
+	width: 50%;
+	margin:auto;
+	padding:1%;
+	text-align: center;
+	color:#34363A;
+	font-size: 20px;
+}
+
+#callbutton {
+	width:8%;
+	margin: auto;
+	border: 2px solid black;
+	transition: .1s ease-in-out;
+}
+
+#callbutton:hover{
+	box-shadow: 3px 3px #000000;
+	width:9%;
+	
+}
+
+
+#social {
+	background-color: #ffffff;
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	
+}
+
+#location {
+	background-color: #34363A;
+	color:#ffffff;
+	order:2;
+	width:100%;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 4%;
+}
+
+#map-container {
+  position: relative;
+  overflow: hidden;
+  width: 25%;
+  padding-top: 25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  margin: 4%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  border: 1px solid gray;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
