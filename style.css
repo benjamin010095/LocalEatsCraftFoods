@@ -125,12 +125,15 @@ a:link, a:visited, a:hover, a:focus, a:active {
 #callbutton {
 	width:8%;
 	margin: auto;
-	border: 2px solid black;
+	color: #34363A;
+	border: 2px solid #34363A;
+	text-align: center;
+	font-size:1.5vw;
 	transition: .1s ease-in-out;
 }
 
 #callbutton:hover{
-	box-shadow: 3px 3px #000000;
+	box-shadow: 3px 3px #34363A;
 	width:9%;
 	
 }
