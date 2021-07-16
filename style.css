@@ -8,7 +8,7 @@ body {
  }
  
 
-a:link, a:visited, a:hover, a:focus, a:active {
+.plain_a:link, .plain_a:visited, .plain_a:hover, .plain_a:focus, .plain_a:active {
 	color:inherit;
 	text-decoration: inherit;
 	transition: .1s ease-in-out;
@@ -36,13 +36,12 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	transition: .1s ease-in-out;
 }
 #hamburger:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	top:0; 
 	left:0;
 }
 
 #hamburger:active {
-	box-shadow:inset 6px 6px white;
 	transform: scale(.95);
 	top:0; 
 	left:0;
@@ -112,6 +111,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 	padding-top: 4%;
 	padding-bottom: 5%;
 	color:#ffffff;
+	text-align: center;
 }
 
 .menu-heading {
