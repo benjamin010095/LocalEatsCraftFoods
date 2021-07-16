@@ -179,11 +179,10 @@ body {
 	background-color: #ffffff;
 	width:100%;
 	margin:auto;
-	display:flex;
-	flex-direction:column;
-	padding-top: 4%;
-	padding-bottom: 5%;
-	
+	padding-top: 5%;
+	padding-bottom: 10%;
+	display:inline-block;
+	text-align:center;
 }
 
 #location {
@@ -201,7 +200,7 @@ body {
 #map-container {
   position: relative;
   overflow: hidden;
-  width: 40%;
+  width: 50%;
   padding-top: 25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   margin: 4%;
 }
