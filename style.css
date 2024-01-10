@@ -96,6 +96,18 @@ body {
 	
 }
 
+.menu {
+	background-color: #313131;
+	width:100%;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	color:#ffffff;
+	text-align: center;
+}
+
 #menu {
 	background-color: #313131;
 	width:100%;
