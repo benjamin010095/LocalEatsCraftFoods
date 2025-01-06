@@ -63,7 +63,7 @@ body {
  
 .nav-item {
 	width: 33%;
-	font-size:3vw;
+	font-size:3em;
 	color: #313131;
 	display:flex;
 	align-items: center;
@@ -163,7 +163,32 @@ body {
 	text-align: center;
 	color:#313131;
 	font-size: 1.5em;
+    overflow: hidden;
 }
+
+.menu-img {
+    width:70%;
+    margin:auto;
+    margin-bottom:2%;
+    box-shadow: 1vw 1vw black;
+}
+
+@media (max-width: 768px) {
+    .catering-text {
+        width: 80%;
+        font-size: 1em;
+    }
+    .menu-img {
+        width:95%;
+    }
+    .nav-item{
+        width:70%
+    }
+    .nav-item:hover{
+        width:90%;
+    }
+}
+
 
 .callbutton {
 	
