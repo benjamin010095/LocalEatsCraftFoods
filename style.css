@@ -96,6 +96,36 @@ body {
 	
 }
 
+#about{
+    width: 100%;
+    background-color: #313131;
+    color:#ffffff;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#about-content{
+    width: 60%;
+    font-size: 1.25em;
+    display:flex;
+    text-align:center;
+    flex-direction: column;
+    margin:auto;
+}
+
+
+.about-heading {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    display: inline-block;
+    color:#ffffff;
+    font-size:3em;
+    text-align: center;
+    
+}
+
 #catering_menu {
 	background-color: #313131;
 	width:100%;
@@ -187,6 +217,10 @@ body {
     .nav-item:hover{
         width:90%;
     }
+    #about-content{
+        width: 90%;
+        font-size: .8em;
+    }
 }
 
 
@@ -220,8 +254,7 @@ body {
 }
 
 #location {
-	background-color: #313131;
-	color:#ffffff;
+    background-color: #ffffff;
 	order:2;
 	overflow: hidden;
 	width:100%;
